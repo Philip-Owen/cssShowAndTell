@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main">
+      <h1>Media Queries</h1>
+      <div class="media1024">
+        <p>(Width: 1025+)</p>
+        <p>With media queries we can target device specific information and create
+        css styles to optimize our site.</p>
+        <p>One of the pieces of information we can use is the size of the device
+        screen that is viewing our page.</p>
+        <p>We can target specific device widths and have our page react differently
+        depending on the size.</p>
+      </div>
+      <div class="media720">
+        <p>(Width: 1024-721)</p>
+        <p>We can target this specific information by utilizing @media rule in our
+        css file.</p>
+        <pre>@media (max-device-width: 1024px) {
+          body {
+            background-color: black;
+            color: white;
+          }
+        }</pre>
+        <p>You can have multiple instances of the @media rule so that you can
+        target a wide variety of device sizes...</p>
+      </div>
+      <div class="media360">
+        <p>(Width: 720 and lower)</p>
+        <p>We can also target height as well...</p>
+      </div>
+      <div class="height360">
+        <p>(Height: 360 and under)</p>
+        <p>Check out
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank">Mozilla MDN</a>
+          or
+          <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">W3Schools</a> for more info on media queries.</p>
+      </div>
+    </div>
+  </body>
+</html>
