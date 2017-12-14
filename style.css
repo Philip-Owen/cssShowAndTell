@@ -26,6 +26,7 @@ p {
   display: none;
 }
 
+/* Changes CSS to below once the page reaches a width of 1024px and below */
 @media (max-device-width: 1024px) {
   body {
     background-color: black;
@@ -44,6 +45,8 @@ p {
     display: none;
   }
 }
+
+/* Changes CSS to below once the page reaches a width of 720px and below */
 @media (max-device-width: 720px) {
   body {
     background-color: blue;
@@ -52,7 +55,6 @@ p {
   h1 {
     font-size: 3em;
   }
-
   p {
     font-size: 40px;
   }
@@ -68,8 +70,9 @@ p {
   .height360 {
     display: none;
   }
-
 }
+
+/* Changes CSS to below once the page reaches a height of 360px and below */
 @media (max-device-height: 360px) {
   body {
     background: #BADA55;
@@ -90,5 +93,4 @@ p {
   .height360 {
     display: block;
   }
-
 }
